@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-04T10:57:26 IST" name="Suite" finished-at="2022-06-04T10:58:19 IST" duration-ms="52712">
+    <groups>
+    </groups>
+    <test started-at="2022-06-04T10:57:26 IST" name="TravelsCustomerLogin_Chrome2" finished-at="2022-06-04T10:57:48 IST" duration-ms="21716">
+      <class name="tests.TravelCustomerLoginTest2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-04T10:57:26 IST" name="setUp" finished-at="2022-06-04T10:57:36 IST" duration-ms="9659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-04T10:57:36 IST" name="travelCustomerLogin2" finished-at="2022-06-04T10:57:48 IST" duration-ms="11663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-04T10:57:48 IST" name="tearDown" finished-at="2022-06-04T10:57:48 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest2 -->
+    </test> <!-- TravelsCustomerLogin_Chrome2 -->
+    <test started-at="2022-06-04T10:57:26 IST" name="TravelsCustomerLogin_Chrome3" finished-at="2022-06-04T10:57:49 IST" duration-ms="22292">
+      <class name="tests.TravelCustomerLoginTest3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-04T10:57:26 IST" name="setUp" finished-at="2022-06-04T10:57:36 IST" duration-ms="9658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-04T10:57:36 IST" name="travelCustomerLogin3" finished-at="2022-06-04T10:57:49 IST" duration-ms="12403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-04T10:57:49 IST" name="tearDown" finished-at="2022-06-04T10:57:49 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest3 -->
+    </test> <!-- TravelsCustomerLogin_Chrome3 -->
+    <test started-at="2022-06-04T10:57:26 IST" name="TravelsCustomerLogin_Edge" finished-at="2022-06-04T10:57:49 IST" duration-ms="23088">
+      <class name="tests.TravelCustomerLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-04T10:57:26 IST" name="setUp" finished-at="2022-06-04T10:57:38 IST" duration-ms="11401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-04T10:57:38 IST" name="travelCustomerLogin" finished-at="2022-06-04T10:57:49 IST" duration-ms="11328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-04T10:57:49 IST" name="tearDown" finished-at="2022-06-04T10:57:49 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest -->
+    </test> <!-- TravelsCustomerLogin_Edge -->
+    <test started-at="2022-06-04T10:57:26 IST" name="TravelsCustomerLogin_Edge2" finished-at="2022-06-04T10:57:50 IST" duration-ms="24026">
+      <class name="tests.TravelCustomerLoginTest2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-04T10:57:26 IST" name="setUp" finished-at="2022-06-04T10:57:38 IST" duration-ms="11428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-04T10:57:38 IST" name="travelCustomerLogin2" finished-at="2022-06-04T10:57:50 IST" duration-ms="12227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-04T10:57:50 IST" name="tearDown" finished-at="2022-06-04T10:57:50 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest2 -->
+    </test> <!-- TravelsCustomerLogin_Edge2 -->
+    <test started-at="2022-06-04T10:57:26 IST" name="TravelsCustomerLogin_Chrome" finished-at="2022-06-04T10:57:58 IST" duration-ms="31227">
+      <class name="tests.TravelCustomerLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-04T10:57:26 IST" name="setUp" finished-at="2022-06-04T10:57:50 IST" duration-ms="23349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-04T10:57:50 IST" name="travelCustomerLogin" finished-at="2022-06-04T10:57:57 IST" duration-ms="7604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-04T10:57:57 IST" name="tearDown" finished-at="2022-06-04T10:57:58 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest -->
+    </test> <!-- TravelsCustomerLogin_Chrome -->
+    <test started-at="2022-06-04T10:57:48 IST" name="TravelsCustomerLogin_Edge3" finished-at="2022-06-04T10:58:00 IST" duration-ms="11282">
+      <class name="tests.TravelCustomerLoginTest3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-04T10:57:48 IST" name="setUp" finished-at="2022-06-04T10:57:52 IST" duration-ms="3419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-04T10:57:52 IST" name="travelCustomerLogin3" finished-at="2022-06-04T10:57:59 IST" duration-ms="7622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-04T10:57:59 IST" name="tearDown" finished-at="2022-06-04T10:58:00 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest3 -->
+    </test> <!-- TravelsCustomerLogin_Edge3 -->
+    <test started-at="2022-06-04T10:57:49 IST" name="TravelsCustomerLogin_FireFox" finished-at="2022-06-04T10:58:07 IST" duration-ms="18509">
+      <class name="tests.TravelCustomerLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-04T10:57:49 IST" name="setUp" finished-at="2022-06-04T10:58:00 IST" duration-ms="10924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-04T10:58:00 IST" name="travelCustomerLogin" finished-at="2022-06-04T10:58:06 IST" duration-ms="6558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-04T10:58:06 IST" name="tearDown" finished-at="2022-06-04T10:58:07 IST" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest -->
+    </test> <!-- TravelsCustomerLogin_FireFox -->
+    <test started-at="2022-06-04T10:57:49 IST" name="TravelsCustomerLogin_firefox2" finished-at="2022-06-04T10:58:07 IST" duration-ms="17741">
+      <class name="tests.TravelCustomerLoginTest2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-04T10:57:50 IST" name="setUp" finished-at="2022-06-04T10:58:00 IST" duration-ms="10089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-04T10:58:00 IST" name="travelCustomerLogin2" finished-at="2022-06-04T10:58:06 IST" duration-ms="6613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-04T10:58:06 IST" name="tearDown" finished-at="2022-06-04T10:58:07 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest2 -->
+    </test> <!-- TravelsCustomerLogin_firefox2 -->
+    <test started-at="2022-06-04T10:57:50 IST" name="TravelsCustomerLogin_firefox3" finished-at="2022-06-04T10:58:19 IST" duration-ms="28655">
+      <class name="tests.TravelCustomerLoginTest3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-04T10:57:50 IST" name="setUp" finished-at="2022-06-04T10:58:12 IST" duration-ms="21402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-04T10:58:12 IST" name="travelCustomerLogin3" finished-at="2022-06-04T10:58:18 IST" duration-ms="5885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-04T10:58:18 IST" name="tearDown" finished-at="2022-06-04T10:58:19 IST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest3 -->
+    </test> <!-- TravelsCustomerLogin_firefox3 -->
+  </suite> <!-- Suite -->
+</testng-results>

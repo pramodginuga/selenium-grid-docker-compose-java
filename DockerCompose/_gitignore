@@ -1,8 +1,0 @@
-# Maven
-target/
-
-# Intellij
-.idea
-
-# VSCode
-.vscode
