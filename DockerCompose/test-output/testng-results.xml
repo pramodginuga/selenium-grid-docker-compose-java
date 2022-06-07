@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-06T06:37:18 IST" name="Suite" finished-at="2022-06-06T06:38:11 IST" duration-ms="52752">
+  <suite started-at="2022-06-06T17:26:58 IST" name="Suite" finished-at="2022-06-06T17:28:08 IST" duration-ms="70173">
     <groups>
     </groups>
-    <test started-at="2022-06-06T06:37:18 IST" name="TravelsCustomerLogin_Chrome3" finished-at="2022-06-06T06:37:39 IST" duration-ms="21117">
+    <test started-at="2022-06-06T17:26:58 IST" name="TravelsCustomerLogin_Chrome3" finished-at="2022-06-06T17:27:26 IST" duration-ms="28273">
       <class name="tests.TravelCustomerLoginTest3">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-06T06:37:18 IST" name="setUp" finished-at="2022-06-06T06:37:28 IST" duration-ms="10068" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-06T17:26:58 IST" name="setUp" finished-at="2022-06-06T17:27:13 IST" duration-ms="15296" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,77 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-06T06:37:28 IST" name="travelCustomerLogin3" finished-at="2022-06-06T06:37:39 IST" duration-ms="10661" status="PASS">
+        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-06T17:27:13 IST" name="travelCustomerLogin3" finished-at="2022-06-06T17:27:25 IST" duration-ms="12390" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 8.018
+  (Session info: chrome=102.0.5005.61)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-SR2QAJF', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [49a72399c08551d49a1b6cbfe8af56a1, get {url=https://www.phptravels.net/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.7tjAKz}, goog:chromeOptions: {debuggerAddress: localhost:33127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.26.0.4:4444/sessio..., se:cdpVersion: 102.0.5005.61, se:vnc: ws://172.26.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.26.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 49a72399c08551d49a1b6cbfe8af56a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 8.018
+  (Session info: chrome=102.0.5005.61)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-SR2QAJF', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [49a72399c08551d49a1b6cbfe8af56a1, get {url=https://www.phptravels.net/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.7tjAKz}, goog:chromeOptions: {debuggerAddress: localhost:33127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.26.0.4:4444/sessio..., se:cdpVersion: 102.0.5005.61, se:vnc: ws://172.26.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.26.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 49a72399c08551d49a1b6cbfe8af56a1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:314)
+at tests.TravelCustomerLoginTest3.travelCustomerLogin3(TravelCustomerLoginTest3.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelCustomerLogin3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-06T06:37:39 IST" name="tearDown" finished-at="2022-06-06T06:37:39 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@43bc63a3]" started-at="2022-06-06T17:27:25 IST" name="tearDown" finished-at="2022-06-06T17:27:26 IST" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TravelCustomerLoginTest3 -->
     </test> <!-- TravelsCustomerLogin_Chrome3 -->
-    <test started-at="2022-06-06T06:37:18 IST" name="TravelsCustomerLogin_Chrome2" finished-at="2022-06-06T06:37:40 IST" duration-ms="22141">
-      <class name="tests.TravelCustomerLoginTest2">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-06T06:37:18 IST" name="setUp" finished-at="2022-06-06T06:37:28 IST" duration-ms="10068" status="PASS">
+    <test started-at="2022-06-06T17:26:58 IST" name="TravelsCustomerLogin_Chrome" finished-at="2022-06-06T17:27:26 IST" duration-ms="28203">
+      <class name="tests.TravelCustomerLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-06T17:26:58 IST" name="setUp" finished-at="2022-06-06T17:27:13 IST" duration-ms="15295" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,103 +109,77 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-06T06:37:28 IST" name="travelCustomerLogin2" finished-at="2022-06-06T06:37:40 IST" duration-ms="11674" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- travelCustomerLogin2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-06T06:37:40 IST" name="tearDown" finished-at="2022-06-06T06:37:40 IST" duration-ms="277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.TravelCustomerLoginTest2 -->
-    </test> <!-- TravelsCustomerLogin_Chrome2 -->
-    <test started-at="2022-06-06T06:37:18 IST" name="TravelsCustomerLogin_Edge2" finished-at="2022-06-06T06:37:40 IST" duration-ms="22310">
-      <class name="tests.TravelCustomerLoginTest2">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-06T06:37:18 IST" name="setUp" finished-at="2022-06-06T06:37:28 IST" duration-ms="10305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-06T06:37:28 IST" name="travelCustomerLogin2" finished-at="2022-06-06T06:37:40 IST" duration-ms="11625" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- travelCustomerLogin2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-06T06:37:40 IST" name="tearDown" finished-at="2022-06-06T06:37:40 IST" duration-ms="284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.TravelCustomerLoginTest2 -->
-    </test> <!-- TravelsCustomerLogin_Edge2 -->
-    <test started-at="2022-06-06T06:37:18 IST" name="TravelsCustomerLogin_Edge" finished-at="2022-06-06T06:37:41 IST" duration-ms="23173">
-      <class name="tests.TravelCustomerLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-06T06:37:18 IST" name="setUp" finished-at="2022-06-06T06:37:29 IST" duration-ms="10358" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-06T06:37:29 IST" name="travelCustomerLogin" finished-at="2022-06-06T06:37:41 IST" duration-ms="12333" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- travelCustomerLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-06T06:37:41 IST" name="tearDown" finished-at="2022-06-06T06:37:41 IST" duration-ms="385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.TravelCustomerLoginTest -->
-    </test> <!-- TravelsCustomerLogin_Edge -->
-    <test started-at="2022-06-06T06:37:18 IST" name="TravelsCustomerLogin_Chrome" finished-at="2022-06-06T06:37:48 IST" duration-ms="30368">
-      <class name="tests.TravelCustomerLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-06T06:37:18 IST" name="setUp" finished-at="2022-06-06T06:37:41 IST" duration-ms="22869" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-06T06:37:41 IST" name="travelCustomerLogin" finished-at="2022-06-06T06:37:48 IST" duration-ms="7105" status="PASS">
+        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-06T17:27:13 IST" name="travelCustomerLogin" finished-at="2022-06-06T17:27:25 IST" duration-ms="11815" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 7.459
+  (Session info: chrome=102.0.5005.61)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-SR2QAJF', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a72131823b7970742821b16c8fa58e7a, get {url=https://www.phptravels.net/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.m3xLms}, goog:chromeOptions: {debuggerAddress: localhost:36993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.26.0.4:4444/sessio..., se:cdpVersion: 102.0.5005.61, se:vnc: ws://172.26.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.26.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a72131823b7970742821b16c8fa58e7a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 7.459
+  (Session info: chrome=102.0.5005.61)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-SR2QAJF', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a72131823b7970742821b16c8fa58e7a, get {url=https://www.phptravels.net/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.m3xLms}, goog:chromeOptions: {debuggerAddress: localhost:36993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.26.0.4:4444/sessio..., se:cdpVersion: 102.0.5005.61, se:vnc: ws://172.26.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.26.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a72131823b7970742821b16c8fa58e7a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:314)
+at tests.TravelCustomerLoginTest.travelCustomerLogin(TravelCustomerLoginTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelCustomerLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-06T06:37:48 IST" name="tearDown" finished-at="2022-06-06T06:37:48 IST" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@3023df74]" started-at="2022-06-06T17:27:25 IST" name="tearDown" finished-at="2022-06-06T17:27:26 IST" duration-ms="962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TravelCustomerLoginTest -->
     </test> <!-- TravelsCustomerLogin_Chrome -->
-    <test started-at="2022-06-06T06:37:39 IST" name="TravelsCustomerLogin_Edge3" finished-at="2022-06-06T06:37:49 IST" duration-ms="10005">
-      <class name="tests.TravelCustomerLoginTest3">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-06T06:37:39 IST" name="setUp" finished-at="2022-06-06T06:37:42 IST" duration-ms="2826" status="PASS">
+    <test started-at="2022-06-06T17:26:58 IST" name="TravelsCustomerLogin_Edge2" finished-at="2022-06-06T17:27:27 IST" duration-ms="29520">
+      <class name="tests.TravelCustomerLoginTest2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-06T17:26:58 IST" name="setUp" finished-at="2022-06-06T17:27:15 IST" duration-ms="17500" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,47 +195,161 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-06T06:37:42 IST" name="travelCustomerLogin3" finished-at="2022-06-06T06:37:49 IST" duration-ms="6942" status="PASS">
+        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-06T17:27:15 IST" name="travelCustomerLogin2" finished-at="2022-06-06T17:27:26 IST" duration-ms="11365" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 7.429
+  (Session info: MicrosoftEdge=101.0.1210.53)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-SR2QAJF', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [272386199eff912fa374c0de1b7cca62, get {url=https://www.phptravels.net/login}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.53, ms:edgeOptions: {debuggerAddress: localhost:33805}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: /tmp/.com.microsoft.Edge.6a...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.26.0.3:4444/sessio..., se:cdpVersion: 101.0.1210.53, se:vnc: ws://172.26.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.26.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 272386199eff912fa374c0de1b7cca62]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 7.429
+  (Session info: MicrosoftEdge=101.0.1210.53)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-SR2QAJF', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [272386199eff912fa374c0de1b7cca62, get {url=https://www.phptravels.net/login}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.53, ms:edgeOptions: {debuggerAddress: localhost:33805}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: /tmp/.com.microsoft.Edge.6a...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.26.0.3:4444/sessio..., se:cdpVersion: 101.0.1210.53, se:vnc: ws://172.26.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.26.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 272386199eff912fa374c0de1b7cca62
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:314)
+at tests.TravelCustomerLoginTest2.travelCustomerLogin2(TravelCustomerLoginTest2.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@22555ebf]" started-at="2022-06-06T17:27:26 IST" name="tearDown" finished-at="2022-06-06T17:27:27 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest2 -->
+    </test> <!-- TravelsCustomerLogin_Edge2 -->
+    <test started-at="2022-06-06T17:26:58 IST" name="TravelsCustomerLogin_Edge" finished-at="2022-06-06T17:27:40 IST" duration-ms="42122">
+      <class name="tests.TravelCustomerLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-06T17:26:58 IST" name="setUp" finished-at="2022-06-06T17:27:15 IST" duration-ms="17232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-06T17:27:15 IST" name="travelCustomerLogin" finished-at="2022-06-06T17:27:39 IST" duration-ms="24258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@5b7a5baa]" started-at="2022-06-06T17:27:39 IST" name="tearDown" finished-at="2022-06-06T17:27:40 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest -->
+    </test> <!-- TravelsCustomerLogin_Edge -->
+    <test started-at="2022-06-06T17:26:58 IST" name="TravelsCustomerLogin_Chrome2" finished-at="2022-06-06T17:27:44 IST" duration-ms="46061">
+      <class name="tests.TravelCustomerLoginTest2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-06T17:26:58 IST" name="setUp" finished-at="2022-06-06T17:27:30 IST" duration-ms="32798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-06T17:27:30 IST" name="travelCustomerLogin2" finished-at="2022-06-06T17:27:43 IST" duration-ms="12890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@6c6cb480]" started-at="2022-06-06T17:27:43 IST" name="tearDown" finished-at="2022-06-06T17:27:44 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest2 -->
+    </test> <!-- TravelsCustomerLogin_Chrome2 -->
+    <test started-at="2022-06-06T17:27:26 IST" name="TravelsCustomerLogin_Edge3" finished-at="2022-06-06T17:27:53 IST" duration-ms="27280">
+      <class name="tests.TravelCustomerLoginTest3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-06T17:27:26 IST" name="setUp" finished-at="2022-06-06T17:27:32 IST" duration-ms="6373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-06T17:27:32 IST" name="travelCustomerLogin3" finished-at="2022-06-06T17:27:53 IST" duration-ms="20514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelCustomerLogin3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-06T06:37:49 IST" name="tearDown" finished-at="2022-06-06T06:37:49 IST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@22ff4249]" started-at="2022-06-06T17:27:53 IST" name="tearDown" finished-at="2022-06-06T17:27:53 IST" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TravelCustomerLoginTest3 -->
     </test> <!-- TravelsCustomerLogin_Edge3 -->
-    <test started-at="2022-06-06T06:37:40 IST" name="TravelsCustomerLogin_firefox2" finished-at="2022-06-06T06:37:59 IST" duration-ms="19068">
-      <class name="tests.TravelCustomerLoginTest2">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-06T06:37:40 IST" name="setUp" finished-at="2022-06-06T06:37:50 IST" duration-ms="9990" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-06T06:37:50 IST" name="travelCustomerLogin2" finished-at="2022-06-06T06:37:58 IST" duration-ms="7860" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- travelCustomerLogin2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-06T06:37:58 IST" name="tearDown" finished-at="2022-06-06T06:37:59 IST" duration-ms="1213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.TravelCustomerLoginTest2 -->
-    </test> <!-- TravelsCustomerLogin_firefox2 -->
-    <test started-at="2022-06-06T06:37:40 IST" name="TravelsCustomerLogin_FireFox" finished-at="2022-06-06T06:37:59 IST" duration-ms="19237">
+    <test started-at="2022-06-06T17:27:26 IST" name="TravelsCustomerLogin_FireFox" finished-at="2022-06-06T17:27:57 IST" duration-ms="31141">
       <class name="tests.TravelCustomerLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-06T06:37:40 IST" name="setUp" finished-at="2022-06-06T06:37:50 IST" duration-ms="10162" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-06T17:27:26 IST" name="setUp" finished-at="2022-06-06T17:27:46 IST" duration-ms="20484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,19 +365,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-06T06:37:50 IST" name="travelCustomerLogin" finished-at="2022-06-06T06:37:58 IST" duration-ms="7814" status="PASS">
+        <test-method signature="travelCustomerLogin()[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-06T17:27:46 IST" name="travelCustomerLogin" finished-at="2022-06-06T17:27:56 IST" duration-ms="9390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelCustomerLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-06T06:37:58 IST" name="tearDown" finished-at="2022-06-06T06:37:59 IST" duration-ms="1250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest@1165b38]" started-at="2022-06-06T17:27:56 IST" name="tearDown" finished-at="2022-06-06T17:27:57 IST" duration-ms="1260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TravelCustomerLoginTest -->
     </test> <!-- TravelsCustomerLogin_FireFox -->
-    <test started-at="2022-06-06T06:37:41 IST" name="TravelsCustomerLogin_firefox3" finished-at="2022-06-06T06:38:11 IST" duration-ms="29553">
-      <class name="tests.TravelCustomerLoginTest3">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-06T06:37:41 IST" name="setUp" finished-at="2022-06-06T06:38:04 IST" duration-ms="22757" status="PASS">
+    <test started-at="2022-06-06T17:27:27 IST" name="TravelsCustomerLogin_firefox2" finished-at="2022-06-06T17:27:58 IST" duration-ms="31222">
+      <class name="tests.TravelCustomerLoginTest2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-06T17:27:27 IST" name="setUp" finished-at="2022-06-06T17:27:46 IST" duration-ms="19328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,11 +393,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-06T06:38:04 IST" name="travelCustomerLogin3" finished-at="2022-06-06T06:38:10 IST" duration-ms="5635" status="PASS">
+        <test-method signature="travelCustomerLogin2()[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-06T17:27:46 IST" name="travelCustomerLogin2" finished-at="2022-06-06T17:27:57 IST" duration-ms="10575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelCustomerLogin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest2@5542c4ed]" started-at="2022-06-06T17:27:57 IST" name="tearDown" finished-at="2022-06-06T17:27:58 IST" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelCustomerLoginTest2 -->
+    </test> <!-- TravelsCustomerLogin_firefox2 -->
+    <test started-at="2022-06-06T17:27:40 IST" name="TravelsCustomerLogin_firefox3" finished-at="2022-06-06T17:28:08 IST" duration-ms="28020">
+      <class name="tests.TravelCustomerLoginTest3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-06T17:27:40 IST" name="setUp" finished-at="2022-06-06T17:28:01 IST" duration-ms="21350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="travelCustomerLogin3()[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-06T17:28:01 IST" name="travelCustomerLogin3" finished-at="2022-06-06T17:28:07 IST" duration-ms="5672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelCustomerLogin3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-06T06:38:10 IST" name="tearDown" finished-at="2022-06-06T06:38:11 IST" duration-ms="1156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelCustomerLoginTest3@dd05255]" started-at="2022-06-06T17:28:07 IST" name="tearDown" finished-at="2022-06-06T17:28:08 IST" duration-ms="984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
