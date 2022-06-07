@@ -20,10 +20,14 @@ Selenium UI Tests can be executed using docker compose making it easier to run s
 
 #### Docker Compose yaml Instructions
 * In this project i have created Docker Compose yaml file using instruction from [Selenium Docker Git Community](https://github.com/SeleniumHQ/docker-selenium)
-* Note: Video recording is in bete stage and we are expecting more changes around this
+* Note: Video recording is in beta stage and we are expecting more changes around this
 * Docker compose file is located /DockerCompose/docker-compose.yml
 
-## Run Selenium Tests
+#### Maven and TestNG SetUp
+* Ensure install Maven software and add details to Environment path
+* Java Environment parameters needs to be added
+
+## Run Selenium Tests using powershell command line
 * Open Powershell using Administrative access
 * Naviagate to Project path using cd C:\**\**\DockerCompose
 * Run .\runTestsDockerCompose.ps1 command
@@ -33,3 +37,11 @@ Selenium UI Tests can be executed using docker compose making it easier to run s
   * Executes Docker Compose down commands. 
   * Closes Docker Desktop application
 
+## Run Tests Manually
+* Start Docker Compose Desktop
+* Open Command prompt or powsershell, navigate to Project Base Directory
+* Run docker-compose up command. This will pull selenium docker images if not found in docker desktop and starts the services
+ * docker-compose up -d command will give less information when lauching selenium grid
+* Go to Eclipse or IDE and right click testngDockerCompose.xml file. Run As --> TestNG Suite
+* After Test Execution is completed, run docker-compose doen from command line
+* Video file will be generated in test-output/videos folder. This can be changed from yaml file
